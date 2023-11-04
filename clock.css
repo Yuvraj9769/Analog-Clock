@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-top: 0;
+}
+.info{
+    color: white;
+    font-size: 50px;
+    width: 45vw;
+    padding: 10px 2px;
+    height: 25vh;
+    text-align: center;
+}
+
+.welcome{
+    color: red;
+}
+
+.to{
+    color: magenta;
+}
+
+.analog{
+    color: greenyellow;
+}
+
+.clock{
+    color: blue;
+}
+
+#img{
+    height: 605px;
+    width: 615px;
+    border-radius: 50%;
+    border-top: 2px solid red;
+    border-bottom: 2px solid greenyellow;
+    border-left: 2px solid blue;
+    border-right: 2px solid magenta;
+}
+
+#second{
+    top: 6%;
+    background-color: blue;
+    height: 290px;
+    width: 8px;
+    position: absolute;
+    left: 49.5%;
+    transform-origin: 5px 267px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#minute{
+    background-color: greenyellow;
+    height: 269px;
+    width: 6px;
+    top: 10%;
+    position: absolute;
+    left: 49.6%;
+    transform-origin: 4px 245px;
+    box-shadow: 0px 0px 7px 2px black;
+}
+#hour{
+    background-color: yellow;
+    height: 220px;
+    width: 10px;
+    top: 17%;
+    position: absolute;
+    left: 49.6%;
+    transform-origin: 5px 200px;
+    box-shadow: 0px 0px 6px 1px black;
+}
